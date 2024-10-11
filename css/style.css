@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.borda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 30px;
+    background-color: black;
+    
+}
+.Logo{
+    color: white;
+    justify-content: left;
+    flex-direction: center;
+
+}
+.sobre{
+    color: white;
+    justify-content: right;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+.embaixo, .emcima{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+    
+    
+}
+.titulo{
+      text-align: center;
+      padding-top: 110px;
+}
+img{
+    display: flex;
+    width: 300px;
+    padding-top: 20px;
+}
